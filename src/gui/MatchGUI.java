@@ -135,7 +135,7 @@ public class MatchGUI implements Initializable {
 		Stage stage = new Stage();
 		URL resource = getClass().getResource("MatchCreation.fxml");
 		Parent root = FXMLLoader.load(resource);	
-		Scene scene = new Scene(root, 600, 352);
+		Scene scene = new Scene(root);
 		
 		stage.setTitle("Trận mới");
 		stage.setScene(scene);

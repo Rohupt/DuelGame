@@ -68,10 +68,10 @@ public class Round {
 		newPlayer[1] = new Player(this.player2);
 		newPlayer[0].setActions(p1Actions);
 		newPlayer[1].setActions(p2Actions);
-		Player tempPlayer = new Player(newPlayer[0]);
-		tempPlayer.setActions(p1Actions);
-		newPlayer[0].setNewAttrs(newPlayer[1]);
-		newPlayer[1].setNewAttrs(tempPlayer);
+		Player tempPlayer1 = new Player(newPlayer[0]);
+		Player tempPlayer2 = new Player(newPlayer[1]);
+		newPlayer[0].setNewAttrs(tempPlayer2);
+		newPlayer[1].setNewAttrs(tempPlayer1);
 		return newPlayer;
 	}
 }

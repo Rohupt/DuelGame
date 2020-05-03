@@ -270,6 +270,7 @@ public class Player {
 		this.name = p.getName();
 		this.weapon = p.getWeapon();
 		this.mount = p.getMount();
+		this.actions = p.getActions();
 	}
 
 	public void initiate(String name, int initRightAtk, int initRightDef, Weapon weapon, Mount mount) {

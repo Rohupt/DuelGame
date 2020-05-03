@@ -23,7 +23,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws IOException {
 		URL resource = getClass().getResource("MatchGUI.fxml");
 		Parent root = FXMLLoader.load(resource);	
-		Scene scene = new Scene(root, 608, 464);
+		Scene scene = new Scene(root);
 		
 		primaryStage.setTitle("Song đấu 2");
 		primaryStage.setScene(scene);
