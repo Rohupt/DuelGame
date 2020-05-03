@@ -2,3 +2,4 @@
 *.exe
 *.jar
 dist/*
+*.jar
