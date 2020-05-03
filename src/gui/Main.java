@@ -21,11 +21,11 @@ public class Main extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
-		URL resource = getClass().getResource("MainGUI.fxml");
+		URL resource = getClass().getResource("MatchGUI.fxml");
 		Parent root = FXMLLoader.load(resource);	
-		Scene scene = new Scene(root, 624, 380);
+		Scene scene = new Scene(root, 608, 468);
 		
-		primaryStage.setTitle("Song đấu");
+		primaryStage.setTitle("Song đấu 2");
 		primaryStage.setScene(scene);
 		primaryStage.setResizable(false);
 		primaryStage.show();

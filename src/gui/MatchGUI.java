@@ -32,7 +32,7 @@ import javafx.stage.Stage;
  * FXML Controller class
  *
  */
-public class MainGUI implements Initializable {
+public class MatchGUI implements Initializable {
 
 	//<editor-fold defaultstate="collapsed" desc="FXML Declarations">
 	@FXML
@@ -435,7 +435,7 @@ public class MainGUI implements Initializable {
 			try {
 				openNewMatch();
 			} catch (IOException ex) {
-				Logger.getLogger(MainGUI.class.getName()).log(Level.SEVERE, null, ex);
+				Logger.getLogger(MatchGUI.class.getName()).log(Level.SEVERE, null, ex);
 			}
 		});
 		
